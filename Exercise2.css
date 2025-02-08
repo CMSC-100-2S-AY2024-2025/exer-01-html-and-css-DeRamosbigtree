@@ -8,7 +8,6 @@ section {
     max-width: 1000px;
     margin: 0px auto;
     padding: 30px;
-    background-color: #fcf8be;
     box-shadow: 0 0 10px rgba(20,23,31, 0.1);
     color:#000000;
     font-weight: 500;
@@ -113,15 +112,16 @@ section {
     margin-top: 20px;
     font-size: 14px;
     color: #fff;
-    padding: 15px 20px; /* Adds spacing inside the box */
+    padding: 15px 20px; 
     background-color:#00292d; /* Semi-transparent black */
     text-align:start;
     line-height: 2;
-    width: fit-content; /* Shrinks box to content size */
+    width: fit-content; 
     position: absolute;
     bottom: 20%;
-    right: 9%; /* Positions it towards the left */
+    right: 9%; 
     z-index: 2;
+    cursor: pointer;
 }
 
   /* Star Decorations */
@@ -199,9 +199,76 @@ body {
 .hello-text {
     margin-top: 40px;
     font-size: 50px;
-    font-family: 'Georgia', serif; /* Choose a serif font */
+    font-family: 'Georgia', serif; 
     text-align: start;
 }
+
+.projects {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+    position: relative;
+    background: linear-gradient(#afdde5 0%, #0fa4af 50%);
+    height: 100%;
+    overflow: hidden; /*no scroll bars*/
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    border: 3px solid #2C343F;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    width: 800px;
+}
+  
+.projects .hello-text {
+    background: linear-gradient(to bottom, #012427, #568d97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: white;
+}
+
+.projects .upper-left-text, .projects .upper-right-text {
+    color: black;
+}
+.proj img {
+    width: 100%; /* Full width inside container */
+    max-width: 450px; /* Limits size for consistency */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+
+.proj h2 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Space between title and image */
+    color: #0c0c0c;
+    font-family: 'Georgia', serif; 
+}
+  
+.details {
+    text-align: center;
+    margin-top: 5px;
+    color: #0c0c0c;
+    font-family: 'Georgia', serif; 
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.4;
+    
+}
+
 footer {
     text-align: center;
     padding: 10px;
