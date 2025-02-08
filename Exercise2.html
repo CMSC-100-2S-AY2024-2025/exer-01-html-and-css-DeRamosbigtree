@@ -7,34 +7,76 @@
     <title>Website Portfolio</title>
 </head>
     <body>
-        <header>
-            <img class="logo" src="Logo.png" alt="logo">
-            <h1 class="title">Website Portfolio</h1>
-            <img class="search" src="Search.png" alt="search">
-        </header>
-        <div class="feturephoto">
-            <img class="feature" src="Feature.jpg" alt="feature">
+      <header>
+        <section class="banner">
+          <div class = "top-left">
+            <span class = "star">★</span>
+            <span class = "upper-left-text"><b>Windee Rose De Ramos</b></span>
+          </div>
+          <div class="top-right">
+            <span class = "upper-right-text">About Me</span>
+            <span class = "upper-right-text">Resume</span>
+            <span class = "upper-right-text">Work</span>
+            <span class = "upper-right-text" id="get-in-touch">Get in touch!</span>
+          </div>
+          <h1 class="main-title">PORTFOLIO</h1>
+          <div class="decorative-text">
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+          </div>
+          <div class="profile">
+            <img src="Images/profile.jpg" alt="Profile" class="profile-img">
+            <!-- <div class="color-overlay"></div> -->
+          </div>
+          <div class="social-links">
+            <p>FB: /windeerose.deramos</p>
+            <p>IG: @windee.rse</p>
+            <p>LI: /windee-rose-e-de-ramos</p>
+          </div>
+        </section>
+      </header>
+      <section class="about">
+        <!-- Top Navigation (Kept from Original) -->
+        <div class="top-left">
+            <span class="star">★</span>
+            <span class="upper-left-text"><b>Windee Rose De Ramos</b></span>
         </div>
-        
-        <section>
-            <div class="proj">
-              <img src="proj1.jpeg" alt="Project 1">
-              <div class="details">
-                <h2>Super Auto Pets</h2>
-                <p>Created: 2024</p>
-                <p>Project Description: This project was created as a compliance to CMSC 22 course. </p>
-              </div>
+        <div class="top-right">
+            <span class="upper-right-text">About Me</span>
+            <span class="upper-right-text">Resume</span>
+            <span class="upper-right-text">Work</span>
+            <span class="upper-right-text" id="get-in-touch">Get in touch!</span>
+        </div>
+    
+        <!-- Flexbox Layout for Side-by-Side Content -->
+        <div class="about-container">
+            <!-- Left Side: Personal Info -->
+            <div class="hello">
+                <h1 class="hello-text">Hello, <br> I'm Windee!</h1>
+                <p>I am a Computer Science student in the University of the Philippines - Los Baños.
+                  Currently a sophomore
+                </p>
+                <br><br>
+                <h3>Contact Details:</h3>
+                <p><b>Email:</b> wederamos@up.edu.ph</p>
+                <p><b>Phone:</b> +63 9685958749</p>
+                <p><b>Location:</b> Los Baños, Laguna, Philippines</p>
+                <p><b>Interests:</b> Web Development, Machine Learning, Game Design</p>
             </div>
-        
-            <div class="proj">
-              <img src="proj2.jpg" alt="Project 2">
-              <div class="details">
-                <h2>Super Auto Pets</h2>
-                <p>Created: 2024/p>
-                <p>Project Description: This project was created as a compliance to CMSC 22 course. </p>
-              </div>
+    
+            <!-- Right Side: Profile Picture -->
+            <div class="photo">
+                <img src="Images/profile2.jpg" alt="Windee Rose De Ramos" class="about-img">
             </div>
-          </section>
+        </div>
+    </section>
+    
+      
+
         
           <footer>
             <p>&copy; Website Portfolio</p>
