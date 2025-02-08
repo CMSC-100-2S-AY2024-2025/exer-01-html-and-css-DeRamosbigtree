@@ -210,7 +210,7 @@ body {
     justify-content: flex-start;
     text-align: start;
     position: relative;
-    background: linear-gradient(#afdde5 0%, #0fa4af 50%);
+    background: linear-gradient(#afdde5 0%, #008080 50%);
     height: 100%;
     overflow: hidden; /*no scroll bars*/
 }
